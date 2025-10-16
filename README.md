@@ -19,4 +19,7 @@ In The Open Source "VortexEngineOpenSource-VisualStudio.zip"
 3.delete folder "Release" because its in builded by visual studio 2022.
 4.If you already delete it, you need select all files and external folder in "LibGLRemake" then copy all files in "LibGLRemake".
 5.Paste into your new project Visual studio 2022 using like this Way "yourprojectname/yourprojectname/ ** paste here **.
-6.if you already pasted you will back to your project
+6.If you already pasted you will back to your project visual studio 2022 application then Set Target Configuration into Release x86 because this engine was builded in x86 release.
+7.Then Go to "Source Files" in visual studio 2022 and right click to "Source Files" next goto "Add" and Click To "Existing Files..." and in upload files dialog and go back to extracted folder of "VortexEngineOpenSource-VisualStudio.zip" and go to "src" folder and select all using Control + A and click Ok button to upload files into your project.
+8.Then Include all external Libraries into your project in project options includes and libraries.
+9.finally go to testC.c its example usage you can read from testC.c and go to LibGL.h for more helps, and build solution and if builded go to output file and run it.
