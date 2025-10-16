@@ -4,3 +4,19 @@
 Finally,This Engine is Good for beginners and easy to use and nice.
 
 Supports: Platforms:Windows, Linux, MacOS. External Libraries: GLFW, GLAD OpenGL Generator (3.3 core profile full extensions), Assimp (for full models formats like gltf,fbx,obj,dae,etc..), STB Library for (stb_image.h for load all images formats like png,jpg,etc... and stb_truetype.h for true type font (TTF))
+
+
+NOTE: this engine is not full working in github but open source or pre-releases are in Google Drive you can download open Sources
+HERE:
+Open Source:
+
+Pre-Release:
+
+Tutorial to Build Engine:
+In The Open Source "VortexEngineOpenSource-VisualStudio.zip" 
+1.Extract it and open extracted folder.
+2.delete these files (LibGLRemake.vcxproj,LibGLRemake.vcxproj.filters,LibGLRemake.vcxproj.user,imgui.ini).
+3.delete folder "Release" because its in builded by visual studio 2022.
+4.If you already delete it, you need select all files and external folder in "LibGLRemake" then copy all files in "LibGLRemake".
+5.Paste into your new project Visual studio 2022 using like this Way "yourprojectname/yourprojectname/ ** paste here **.
+6.if you already pasted you will back to your project
